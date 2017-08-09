@@ -17,6 +17,8 @@
     <string name="login">Login</string>
     <string name="about_us">About us.</string>
     <string name="show_password">show password</string>
+    <string name="about_string_about_us">About us</string>
+    <string name="login_txt">Login</string>
 
 
     <string-array name="image_ids">

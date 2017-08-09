@@ -4,16 +4,12 @@ import android.content.Intent;
 import android.content.res.TypedArray;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.GridView;
-
-import java.util.ArrayList;
-
 import android.widget.AdapterView.OnItemClickListener;
-
+import android.widget.GridView;
 
 import com.example.krunal.attendancesystem.Adapters.GridViewAdapter;
 import com.example.krunal.attendancesystem.Model.ImageItem;
@@ -24,6 +20,7 @@ public class Student_Grid extends ActionBarActivity {
 
     private GridView gridView;
     private GridViewAdapter gridAdapter;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -40,7 +37,6 @@ public class Student_Grid extends ActionBarActivity {
                 try {
                     ImageItem item = (ImageItem) parent.getItemAtPosition(position);
 
-                    if
 
                     //Create intent
                     Intent intent = new Intent(Student_Grid.this, Student_details.class);
